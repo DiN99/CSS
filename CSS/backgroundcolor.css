@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>background-color property</title> 
+        <style>  
+            body { 
+                text-align:center; 
+                /*background-color: lightblue;*/
+                background-image: url("bg1.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: scroll;
+                /*background-size:cover;*/
+            } 
+        h1{
+            color: blue;
+        }
+        </style>  
+    <link rel="stylesheet" type="text/css" href="file.css">
+    </head> 
+    <body>  
+        <h1>Hello World.</h1>
+        <h1 style="color: red;">Welcome to the Web Technologies</h1>  
+        </body>  
+</html>
